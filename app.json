@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "chef-online",
+    "slug": "chef-online",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
