@@ -6,14 +6,23 @@ import {
   Text
 } from './styles';
 
-type ButtonProps = TouchableOpacityProps & {
+export type ButtonProps = TouchableOpacityProps & {
   title: string;
+  color: string;
+  icon?: string; 
 }
 
-export function Button({title, ...rest }:ButtonProps ){
+export function Button({ title, color, icon: Icon, ...rest }: ButtonProps ){
   return (
     <Container onPress={() => {}} {...rest}>
-      <Text>{title}</Text>
+      <Text>
+        {
+          Icon &&
+          <Icon />
+        }
+
+        {title}
+      </Text>
     </Container>
   );
 };
