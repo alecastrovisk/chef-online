@@ -37,10 +37,12 @@ export function Login(){
         <Input
           placeholder='Informe seu email'
           placeholderTextColor={theme.colors.secondary}
+
         />
         <Input
           placeholder='Informe sua senha'
           placeholderTextColor={theme.colors.secondary}
+          error={true}
         />
         
         <Button title='Entrar' color={theme.colors.primary} />
