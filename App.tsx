@@ -1,4 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, {
+  useCallback, 
+  useEffect, 
+  useState
+} from 'react';
 import { View } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import {
@@ -29,7 +33,6 @@ export default function App() {
         setAppIsReady(true);
       }
     }
-
     prepare();
   }, []);
 

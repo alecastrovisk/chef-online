@@ -42,7 +42,6 @@ export function Login(){
         <Input
           placeholder='Informe sua senha'
           placeholderTextColor={theme.colors.secondary}
-          error={true}
         />
         
         <Button title='Entrar' color={theme.colors.primary} />
